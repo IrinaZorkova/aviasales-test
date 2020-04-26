@@ -14,5 +14,6 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 )
-
+//TODO: add pagination
+//TODO: add tests
 serviceWorker.unregister()
