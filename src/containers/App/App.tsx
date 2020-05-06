@@ -16,7 +16,7 @@ const mapDispatchToProps = {
 const mapStateToProps = (state: AppState) => ({
   searchIdError: state.searchId.error,
   searchIdLoading: state.searchId.loading,
-  searchId: state.searchId.searchId
+  searchId: state.searchId.data
 })
 
 type HOCProps = typeof mapDispatchToProps & ReturnType<typeof mapStateToProps>
